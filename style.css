@@ -1,0 +1,54 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: white;
+}
+  
+.right {
+    right: 0;
+    background-color: grey;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+img {
+    -webkit-filter: brightness(100%);
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
